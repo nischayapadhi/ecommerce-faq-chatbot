@@ -3,8 +3,7 @@
 A Natural Language Processing (NLP) chatbot capable of answering customer support queries using Semantic Search (GloVe Embeddings & Cosine Similarity).
 
 ## 🚀 Live Demo
-[Link to your Streamlit App] (You will add this after deployment)
-
+[https://ecommerce-faq--chatbot.streamlit.app/](https://ecommerce-faq--chatbot.streamlit.app/)
 ## 🛠️ Tech Stack
 * **Python 3.8+**
 * **Streamlit** (Frontend Interface)
