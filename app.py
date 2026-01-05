@@ -32,7 +32,7 @@ def load_cached_bot():
     # 1. AUTOMATIC DOWNLOAD TRIGGER
     if not os.path.exists(GLOVE_PATH):
         # Show a spinner because this takes 2-3 minutes
-        with st.spinner("📥 Downloading AI Model (800MB) for the first time..."):
+        with st.spinner("📥 Downloading AI Model ..."):
             check_and_download_model()
     
     # 2. Check Data

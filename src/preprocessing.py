@@ -7,11 +7,13 @@ from nltk.tokenize import word_tokenize
 # Download necessary NLTK data (only runs once)
 try:
     nltk.data.find('tokenizers/punkt')
+    nltk.data.find('tokenizers/punkt_tab') # <--- CHECK FOR THIS
     nltk.data.find('corpora/stopwords')
     nltk.data.find('corpora/wordnet')
 except LookupError:
     print("Downloading NLTK resources...")
     nltk.download('punkt')
+    nltk.download('punkt_tab') # <--- ADD THIS LINE
     nltk.download('stopwords')
     nltk.download('wordnet')
     nltk.download('omw-1.4')
